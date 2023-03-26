@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    color: rgb(46, 45, 45);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.Order-button{
+    color: white;
+    font-weight: 700;
+    border-radius: 45px;
+    background-image: linear-gradient(tomato, salmon);
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.Order-button:hover{
+    color: white;
+    background-image: linear-gradient(green, tomato);
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.about-me{
+    background-image: url(img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+#about-me{
+    margin: 50px;
+}
+#about-me p{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
